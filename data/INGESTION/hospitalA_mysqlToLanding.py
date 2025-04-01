@@ -32,6 +32,7 @@ MYSQL_CONFIG = {
     "password": "mypass"
 }
 
+
 ##------------------------------------------------------------------------------------------------------------------##
 # Logging Mechanism
 log_entries = []  # Stores logs before writing to GCS
@@ -73,6 +74,7 @@ def save_logs_to_bigquery():
             .mode("append") \
             .save()
         print("✅ Logs stored in BigQuery for future analysis")
+
     
 ##------------------------------------------------------------------------------------------------------------------##
 
