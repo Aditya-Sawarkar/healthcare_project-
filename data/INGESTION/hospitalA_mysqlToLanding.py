@@ -33,6 +33,7 @@ MYSQL_CONFIG = {
 }
 
 
+
 ##------------------------------------------------------------------------------------------------------------------##
 # Logging Mechanism
 log_entries = []  # Stores logs before writing to GCS
